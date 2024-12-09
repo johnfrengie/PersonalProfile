@@ -1,0 +1,52 @@
+@font-face {
+    font-family: cloister;
+    src: url(CloisterBlack.ttf);
+}
+@font-face {
+    font-family:akira;
+    src: url(Akira\ Expanded\ Demo.otf);
+}
+@font-face {
+    font-family: creato;
+    src: url(CreatoDisplay-Light.otf);
+}
+nav{
+    margin-left: 4%;
+    margin-top:2%;
+    font-family: akira;
+    font-size: 90%;
+}
+
+body{
+    color: white;
+    background-color: black;
+}
+.text{
+    text-align: right;
+    margin-right: 4%;
+    margin-left: 45%;
+    margin-top: 13%;
+}
+h3{
+    font-size: 400%;
+    font-family: cloister;
+    font-weight: lighter;
+}
+h4{
+    font-size: 200%;
+    font-family: akira;
+}
+p{
+    font-size:100%;
+    font-family: creato;
+    font-weight: 50;
+}
+button{
+    color: white;
+    background-color: none;
+}
+@media(min-width:600px){
+    nav{
+        font-size: 100%;
+    }
+}

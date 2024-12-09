@@ -1,0 +1,70 @@
+@font-face {
+    font-family: cloister;
+    src: url(CloisterBlack.ttf);
+}
+@font-face {
+    font-family:akira;
+    src: url(Akira\ Expanded\ Demo.otf);
+}
+@font-face {
+    font-family: creato;
+    src: url(CreatoDisplay-Light.otf);
+}
+nav{
+    margin-left: 4%;
+    margin-top:2%;
+    font-family: akira;
+    font-size: 90%;
+}
+
+body{
+    color: white;
+    background-color: black;
+}
+.text{
+    text-align: center;
+    margin-right: 8%;
+    margin-left: 8%;
+    margin-top: 10%;
+}
+hr{
+    margin-top: 0;
+    margin-left:35%;
+    margin-right:35%;
+}
+h3{
+    font-size: 400%;
+    font-family: cloister;
+    font-weight: lighter;
+}
+h4{
+    font-size: 250%;
+    font-family: akira;
+    margin-top: 5%;
+    margin-bottom: 1%;
+}
+p{
+    font-size:100%;
+    font-family: creato;
+    font-weight: 50;
+    margin-bottom: 5%;
+}
+.class p{
+    margin-bottom: 10%;
+}
+button{
+    color: white;
+    background-color: none;
+}
+img{
+    padding: 2%;
+    border-radius: 10px;
+}
+@media(min-width:500px){
+    nav{
+        font-size: 100%;
+    }
+    .text{
+        font-size:100%;
+    }
+}
